@@ -38,3 +38,11 @@ elif Num2 >= Num4 >= Num1 >= Num3:
     print (f"Highest to Lowest: {Num2}, {Num4}, {Num1}, {Num3} ")
 elif Num2 >= Num4 >= Num3 >= Num1:
     print (f"Highest to Lowest: {Num2}, {Num4}, {Num3}, {Num1} ")
+    
+# possible outcome if the third number is the highest number
+elif Num3 >= Num1 >= Num2 >= Num4:
+    print (f"Highest to Lowest: {Num3}, {Num1}, {Num2}, {Num4} ")
+elif Num3 >= Num2 >= Num1 >= Num4:
+    print (f"Highest to Lowest: {Num3}, {Num2}, {Num1}, {Num4} ")
+elif Num3 >= Num4 >= Num1 >= Num2:
+    print (f"Highest to Lowestr: {Num3}, {Num4}, {Num1}, {Num2} ")
