@@ -60,3 +60,9 @@ elif Num4 >= Num2 >= Num3 >= Num1:
     print (f"Highest to Lowest: {Num4}, {Num2}, {Num3}, {Num1} ")
 elif Num4 >= Num1 >= Num3 >= Num2:
     print (f"Highest to Lowest: {Num4}, {Num1}, {Num3}, {Num2} ")
+elif Num4 >= Num3 >= Num1 >= Num2:
+    print (f"Highest to Lowest: {Num4}, {Num3}, {Num1}, {Num2} ")
+elif Num4 >= Num1 >= Num2 >= Num3:
+    print (f"Highest to Lowestr: {Num4}, {Num1}, {Num2}, {Num3} ")
+elif Num4 >= Num2 >= Num1 >= Num3:
+    print (f"Highest to Lowest: {Num4}, {Num2}, {Num1}, {Num3} ")
