@@ -28,3 +28,7 @@ elif Num1 >= Num4 >= Num3 >= Num2:
 # possible outcome if the second number is the highest number
 elif Num2 >= Num3 >= Num4 >= Num1:
     print (f"Highest to Lowest: {Num2}, {Num3}, {Num4}, {Num1} ")
+elif Num2 >= Num3 >= Num1 >= Num4:
+    print (f"Highest to Lowest: {Num2}, {Num3}, {Num1}, {Num4} ")
+elif Num2 >= Num4 >= Num3 >= Num1:
+    print (f"Highest to Lowest: {Num2}, {Num4}, {Num3}, {Num1} ")
