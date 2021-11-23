@@ -15,3 +15,13 @@ def randomAdd():
     RanAnws = Num1 + Num2
     print(f"What will be the sum if {Num1} is added to {Num2}?")
     return RanAnws
+
+# evaluate the user answer if correct
+def userAns():
+    global randAns
+    randAns = randomAdd
+    userAns = int(input("Enter your answer: "))
+    return randAns == userAns
+
+
+    
