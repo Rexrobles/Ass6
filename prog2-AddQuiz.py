@@ -19,9 +19,24 @@ def randomAdd():
 # evaluate the user answer if correct
 def userAns():
     global randAns
-    randAns = randomAdd
+    randAns = randomAdd()
     userAns = int(input("Enter your answer: "))
     return randAns == userAns
 
+# asking the user 10 question
+def askingUser():
+    currentScore = 0
+    for i in range(10):
+        rightAns = userAns()
+        if rightAns:
+            currentScore += 1
+            print(f"Congratulations, {user}! You got the correct answer!")      
+        else:
+            currentScore = currentScore    
+            print(f"Sorry, the correct answer is {randAns}.") 
+    print("Calculating final score...")
+    print(f"{user}, your final score is {currentScore}/10. Hope to see you again next time! ♥")
+    print("End")
 
+askingUser()
     
